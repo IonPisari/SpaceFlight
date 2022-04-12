@@ -38,9 +38,7 @@ document.body.onkeydown = (e) => {
                 drawImage(`missile`, w/2-missileX/2,missileY)
                 missileY -= 5
             }else{
-                // setInterval(()=>{
                     drawImage(`explosion`,w/2-explosionX/2,explosionY-500)
-                // },100)
             }
         },20)
     }
